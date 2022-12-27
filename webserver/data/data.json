@@ -1,0 +1,16 @@
+{
+  "users":[
+    {
+      "id": 1,
+      "firstName": "Neck",
+      "age": 33,
+      "Occupation": "Full Stack Web Developer"
+    },
+    {
+      "id": 2,
+      "firstName": "Tanya",
+      "age": 29,
+      "Occupation": "Front end developer"
+    }
+  ]
+}

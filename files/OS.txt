@@ -1,0 +1,18 @@
+Hello,
+I am a Robot.
+This file locates D:\workspaceNodeJS\nodejs\files
+The file name is practice.js
+
+Bellow are OS information for your server
+
+                OS Type: Windows_NT,
+
+                OS Version: Windows 10 Pro,
+
+                OS home directory: C:\Users\Nechir,
+
+                OS platform: win32,
+
+                OS architecture: x64,
+
+                OS release: 10.0.19044
