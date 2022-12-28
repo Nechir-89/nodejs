@@ -4,10 +4,14 @@ const app = express();
 // hostname and port needed for nodejs while express will ask only for port
 const port = process.env.PORT || 4500;
 
+app.use(express.static('images'));
+
 // serve first request
 app.get('/', (req, res)=>{
   res.send('data from server for get request from / url')
-})
+});
+
+
 
 
 app.listen(port, () => {
