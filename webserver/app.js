@@ -1,18 +1,16 @@
-// import http from 'node:http';
-const http = require('node:http');
+// const http= require('node:http')
+const express = require('express');
+const app = express();
+// hostname and port needed for nodejs while express will ask only for port
+const port = process.env.PORT || 4500;
 
-const hostname = 'localhost';
-// const port = env.process.PORT || 3000;
-const port = 3000;
-
-const server = http.createServer((req, res) => {
-  res.statusCode = 200;
-  res.setHeader('Content-Type', 'text/plain');
-  res.end('Server is running!');
+// serve first request
+app.get('/', (req, res)=>{
+  res.send('data from server for get request from / url')
 })
 
 
-server.listen(port, hostname, () => {
-  console.log(`Application is ready to serve on port ${port}`)
+app.listen(port, () => {
+  console.log(`Application is running on port ${port}`)
 })
 
