@@ -1,0 +1,16 @@
+[
+  {
+    "_id": "b9fd1e95-8424-4688-957e-aaf0d4673518",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:4500/response.jpeg",
+    "url": "http://localhost:4500/response.jpeg",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-12-29T16:09:58.784Z",
+    "modified": "2022-12-29T16:09:58.784Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  }
+]
