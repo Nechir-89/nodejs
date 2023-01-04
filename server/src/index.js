@@ -6,7 +6,7 @@ app.get('/', (req, res) => {
   res.send('<h1>Server is running</h2>');
 })
 
-const usersRoute = require('./routes/users');
+const usersRoute = require('./routes/usersRouter');
 app.use('/api/users', usersRoute);
 
 app.listen(port, () => {
